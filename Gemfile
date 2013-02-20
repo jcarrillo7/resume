@@ -1,13 +1,12 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 #For User Authentication
-gem 'less-rails'
-gem 'devise'
+gem 'less-rails'	
 gem 'haml'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'

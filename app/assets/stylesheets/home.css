@@ -1,0 +1,19 @@
+.breadcrumb {
+font-size: 25px;
+background-color: transparent;
+margin-bottom: 60px;
+}
+
+img.pull-right {
+width:80%;
+margin-left:30px;
+}
+img.pull-left {
+width:80%;
+margin-right:30px;
+}
+.featurette {
+margin-bottom: 400px;
+}
+
+

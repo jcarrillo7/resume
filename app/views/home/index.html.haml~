@@ -1,0 +1,169 @@
+%div.container
+  %div.header
+    %h1.title
+      %strong Jose Carrillo 
+      is an electrical engineer, computer scientist, programmer, UC Berkeley third year student, and a salsa dancer.
+
+  %div
+    %ul.breadcrumb
+      %li.active
+        %a{"data-toggle" => "tab", :href => "#tab1"} About
+        %span.divider / 
+      %li
+        %a{"data-toggle" => "tab", :href => "#tab2"} Projects
+        %span.divider /
+      %li
+        %a{"data-toggle" => "tab", :href => "#tab3"} Skills
+        %span.divider /
+      %li
+        %a{"data-toggle" => "tab", :href => "#tab4"} Experience
+        %span.divider /
+      %li
+        %a{"data-toggle" => "tab", :href => "#tab5"} Resume
+        %span.divider /
+      %li
+        %a{"data-toggle" => "tab", :href => "#tab6"} Contact
+        %span.divider /
+    %div.tab-content
+      %div.tab-pane.active#tab1
+      %div.tab-pane.active#tab2
+ 
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
+          %h4.featurette-heading Freedom Tracker
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
+          %h4.featurette-heading Compass
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
+          %h4.featurette-heading PacMan AI
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
+          %h4.featurette-heading Disney ImagiNations 2013
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
+          %h4.featurette-heading EEG Signal Processing Circuit
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
+          %h4.featurette-heading AM Radio Circuit
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
+          %h4.featurette-heading RSF Aid
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
+          %h4.featurette-heading Logo Language Interpreter
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
+          %h4.featurette-heading Fast Matrix Multiplication
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
+          %h4.featurette-heading Game Tree Search
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
+          %h4.featurette-heading Hadoop
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+        %div.featurette
+          = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
+          %h4.featurette-heading Game Tree Search
+          %p.featurette-info
+            Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+
+          %div.btn.disabled more info
+
+      %div.tab-pane#tab3
+        %div
+          %h4 Programming Languages
+          %p
+            Java, Python, Ruby, C, C++, Objective-C, Visual Basic, MATLAB, HTML, XML, CSS
+          
+          %h4 Hardware Design
+          %p
+            NI Multisim, NI LabView, NI UltiBoard, LTSpice, HSpice
+
+          %h4 Industrial Hardware & Standards
+          %p
+            Programmable Logic Controllers, TCP/IP, EtherNet/IP, Familiarity with Rockwell Automation and Allen-Bradley equipment, ASTM Amusement Park Standards
+
+          %h4 Design
+          %p
+            Rhino 3D, AutoCAD, Photoshop, 3DS Max, SolidWorks
+
+          %h4 Foreign Languages
+          %p
+            English, Spanish, French
+
+      %div.tab-pane#tab4
+        %div
+          %h4 ESS PEER ADVISOR, COLLEGE OF ENGINEERING, BERKELEY, CA
+          %p 
+            Student advisor for engineering students. Provided support to new students, helping them grow as members of our campus, and help them decide the correct path for them.
+
+          %h4 ELECTRICAL ENGINEERING & CONTROLS INTERN, UNIVERSAL CREATIVE, ORLANDO, FL
+          %p
+            Intern with the electrical engineering and control systems team. Helped design, develop, and prototype cutting edge control systems for new unannounced guest experiences. Designed control circuitry, theory of operations, and fail-safe wireless communication control systems. Worked on a team and helped develop a new form of safe uninterruptable wireless communication for moving trains. Praised by management for my quality of work.
+
+          %h4 SEASONAL RIDE ATTENDANT, UNIVERSAL STUDIOS, ORLANDO, FL
+          %p
+            Worked on a team to provide an excellent themed guest experience. Responsible for safety, operations, theming, and ride throughput. Consistently praised by management for my extraordinary theming, guest service, and team work.
+
+          %h4 INTERN, UNIVERSAL CREATIVE, ORLANDO, FL
+          %p
+            First high school intern at Universal Creative. Aided in the development of mechanical, electrical, and robotic control systems on projects like the Hollywood Rip Ride Rockit roller-coaster and the Wizarding World of Harry Potter.
+
+      %div.tab-pane#tab5
+      %div.tab-pane#tab6
