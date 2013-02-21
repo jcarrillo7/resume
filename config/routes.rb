@@ -2,6 +2,7 @@ Resume::Application.routes.draw do
 
 
   root :to => 'home#index'
+  match 'download/Resume.pdf' => 'home#download', :as => :resume
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

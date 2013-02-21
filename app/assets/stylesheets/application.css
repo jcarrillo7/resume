@@ -13,6 +13,7 @@ line-height: 1em;
 font-size:50px;
 }
 
+
 .container {
 color: #a7a7a7;
 }
@@ -21,4 +22,11 @@ color: #a7a7a7;
 margin-top: 95px;
 margin-bottom: 95px;
 }
+
+::selection {
+background: #87d7da;
+color: #fff;
+text-shadow: none;
+}
+
 
