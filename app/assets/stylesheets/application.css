@@ -37,10 +37,4 @@ margin-top: 95px;
 margin-bottom: 95px;
 }
 
-::selection {
-background: #87d7da;
-color: #fff;
-text-shadow: none;
-}
-
 

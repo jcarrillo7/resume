@@ -4,8 +4,8 @@
       %strong.b José Carrillo
       is an electrical engineer, computer scientist, programmer, UC Berkeley third year student, and 
       %span#fact{:style => "display: inline; opacity:1.0"} a salsa dancer.
-  %div
-    %ul.breadcrumb
+  %div#top-parent
+    %ul.breadcrumb#top
       %li.active
         %a{"data-toggle" => "tab", :href => "#tab1"} About
         %span.divider / 
@@ -24,7 +24,7 @@
       %li
         %a{"data-toggle" => "tab", :href => "#tab6"} Contact
         %span.divider /
-    %div#site.tab-content
+    %div.tab-content
       %div.tab-pane.fade.in.active#tab1
         =render "about_tab"
 
@@ -41,6 +41,7 @@
       %div.tab-pane.fade.in#tab5
         =render "resume_tab"
       %div.tab-pane.fade.in#tab6
+        =render "contact_tab"
 
   %hr
   %footer
@@ -49,6 +50,10 @@
         %li
           =link_to "jcarrillo7@live.com", "mailto:jcarrillo7@live.com"
         %li
+          =link_to "jcarrillo7@berkeley.edu", "mailto:jcarrillo7@berkeley.edu"
+        %li
           =link_to "407-697-8030", "tel:407-697-8030"
         %li
           =link_to "Résumé", resume_path
+
+
