@@ -24,7 +24,7 @@
       %li
         %a{"data-toggle" => "tab", :href => "#tab6"} Contact
         %span.divider /
-    %div.tab-content
+    %div#site.tab-content
       %div.tab-pane.fade.in.active#tab1
         =render "about_tab"
 

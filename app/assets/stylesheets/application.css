@@ -7,9 +7,8 @@
  *= require_tree . 
 */
 body{
-font-size: 1em;
 font-family: 'Raleway', sans-serif;
-color: #505050
+color: #888;
 }
 
 .grey {
@@ -20,10 +19,9 @@ color: #a7a7a7;
 color: #505050
 }
 
-.title {
+header.h1.title {
 font-family: 'Raleway', sans-serif;
 font-weight:100;
-line-height: 1em;
 font-size:50px;
 color: #a7a7a7;
 }

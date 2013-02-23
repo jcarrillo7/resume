@@ -1,96 +1,119 @@
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
-  %h4.featurette-heading Freedom Tracker
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.right
+  %iframe{:allowfullscreen => "", :frameborder => "0", :height => "500", :src => "http://www.youtube.com/embed/PWIGFh2XKL0?feature=player_detailpage", :width => "640", :class => "featurette-image"}
+  %aside.featurette-info
+    %h4.featurette-heading Freedom Tracker
+    %div.content
+      %p My team and I Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+      %p The project was a Ruby on Rails app using Heroku as the hosting service. We created the entire service from the ground up, including all frontend (javascript, UI, validations, styles, etc) and backend (Postgre, API, machine learning svm algorithms, and web scraper).
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
-  %h4.featurette-heading Compass
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.left
+  %i.icon-ban-circle.icon-big
+  %aside.featurette-info
+    %h4.featurette-heading Compass
+    %div.content
+      %p Compass is an iOS app currently in development by my roomate and I. It is a blood glucose management app for diabetics that predicts the effects of food and insulin on your blood glucose curve in order to help you deside how much insulin to take and when. It works by keeping track of all your past meals, insulin injections, and blood glucose readings and uses them to draw out the effect of each past meal/insulin on your blood glucose curve over time giving you a much more precise reading.
+      %p This app is being developed for a medical customer who owns the patents for the mathematical prediction models used.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
-  %h4.featurette-heading PacMan AI
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.right
+  = image_tag "cs188-pacman.png", :class => "featurette-image"
+  %aside.featurette-info
+    %h4.featurette-heading Pac-Man AI
+    %div.content
+      %p The PacMan project is part of UC Berkeley's CS188 Artificial Intelligence course. The aim is to create many different search algorithms (BFS, DFS, MiniMax, Alpha Beta Pruning, ExpectiMax) along with smart evaluation functions and AI learning to create a PacMan player. PacMan can play against random ghosts and smart ghosts, all while taking into account objectives, food, power ups, and current score all in order to maximize final score.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
-  %h4.featurette-heading Disney ImagiNations 2013
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.left
+  %i.icon-ban-circle.icon-big
+  %aside.featurette-info
+    %h4.featurette-heading Disney ImagiNations 2013
+    %div.content
+      %p I competed in Disney's ImagiNations 2013 competition alongside my friends Christopher Balcells (EECS), Andre Faroni (MechE), and Hala Keilany (Architecture). ImagiNations is a design competition for Disney's Imagineering where you have to design the future of Disney entertainment experiences. Our design was an indoor skydiving adventure experience where guest fly inside a large 360° IMAX dome alognside actors through an epic fantasy. 
+      %p We designed initial prototypes of how the system would work, the special light-up suits the guest wore, and the story line for the attraction.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
-  %h4.featurette-heading EEG Signal Processing Circuit
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.right
+  = image_tag "EEG.jpg", :class => "featurette-image"
+  %aside.featurette-info
+    %h4.featurette-heading EEG Signal Processing Circuit
+    %div.content
+      %p For Berkeley's EE40 Circuits class I designed the signal processing circuitry for an EEG device. The circuitry involved a EEG brainwave input coming through two electrodes that then went into a instrumentational amplifier, low pass active filter, buffers, and notch filters to output an amplified clean version of your brainwaves. The entire circuit was designed by hand, modeled in SPICE, laid out on a PCB, sent to manufacturing, and finally soldered and tested.
+      %p Project specs included power limitations, variable gain for all amplifier stages, and test circuitry. It was built fully out of discrete components.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
-  %h4.featurette-heading AM Radio Circuit
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.left
+  %i.icon-ban-circle.icon-big
+  %aside.featurette-info
+    %h4.featurette-heading AM Radio Circuit
+    %div.content
+      %p In Berkeley's EE105 Semiconductor Physics course we had a final project of designing an AM radio from discrete components. I designed a multi-stage amplifier that used transistors to create the necessary voltage and current biasing. The circuit also required us to design a demodulator.
+      %p Project specs included driving a low impedance speaker, variable volume control, gain of 50 over frequencies from 500 Hz to 20 kHz, no clipping at maximum volume, required active loads and no resistor dividers for transistor biasing. No opamps were allowed.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
-  %h4.featurette-heading RSF Aid
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.right
+  %iframe{:allowfullscreen => "", :frameborder => "0", :height => "500", :src => "http://www.youtube.com/embed/0PLKiZF0TUY?feature=player_detailpage", :width => "640", :class => "featurette-image"}
+  %aside.featurette-info
+    %h4.featurette-heading RSF Aid
+    %div.content
+      %p RSF Aid is an Android app designed for UC Berkeley's Student Technology Council's Web App Competition. It was designed by my roomate, Chris Balcells, and I to serve the needs of the campus gym. The app won 4th place at the competition and was the only app picked by members of the campus for more development.
+      %p The app provides students with a way to see the current capacity of the gym, availability of machinery, classes offered at the gym, special programs and promotions, hours by location and sport, important news feeds, which of your friends have checked-in at a campus sport location, and a special pick-up game feature that allows students to set up pick-up games with other students thereby creating new friendships.
+      %p The app used Google App Engine for its backend, alongside Facebook APi's, Campus API's, and some web scraping to gather the data.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
-  %h4.featurette-heading Logo Language Interpreter
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.left
+  = image_tag "logo.png", :class => "featurette-image"
+  %aside.featurette-info
+    %h4.featurette-heading Logo Language Interpreter
+    %div.content
+      %p The Logo Interpreter is a project done for CS61A Programming Structures course. We had to design the parser, and implement the logic in order to run scripts written in the Logo language. The Interpreter then outputted the results of running the scripts onto a GUI. The project was built on the python language.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
-  %h4.featurette-heading Fast Matrix Multiplication
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.right
+  %i.icon-ban-circle.icon-big.pull-right
+  %aside.featurette-info
+    %h4.featurette-heading Fast Matrix Multiplication
+    %div.content
+      %p For CS61C Computer Architecture course, we had to design a fast matrix multiplication algorithm that took advantage of multiple threads, hardware cache sizes, cache blocking, and assembly language optimizations in order to multiply two rectangular matrices. The project required achieving speeds of over 60 Gigaflops. I achieved over 70 Gigaflops. It was coded in C with optimizations done in the MIPS assembly langauge.
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
-  %h4.featurette-heading Game Tree Search
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.left
+  = image_tag "minimax.gif", :class => "featurette-image"
+  %aside.featurette-info
+    %h4.featurette-heading Game Tree Search
+    %div.content
+      %p For Berkeley's CS61B Data Structures course I had to create an entire framework that could represent and play the game of Network. Network is a game where opponents place chips on a checkerboard, one at a time, trying to create a network of uninterrupted "connections" between their own chips (kind of like long range Connect Four). A player won by creating a sufficiently long network. 
+      %p I had to design a complete framework that could efficiently represent the game, game board, rules, players, actions, and game states. Then I had to create search algorithms and evaluation functions that could intelligently play the game. Graph theory algorithms (mainly Kruskal's) were used to quickly search through a graph representation of the game and determine networks and game state.
+      %p This project was coded in Java. 
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
         
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-right"
-  %h4.featurette-heading Hadoop
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
+%section.featurette.right
+  = image_tag "Hadoop.gif", :class => "featurette-image"
+  %aside.featurette-info
+    %h4.featurette-heading Hadoop MapReduce
+    %div.content
+      %p In Berkeley's CS61c course we had to use the Hadoop framework, along with MapReduce algorithms, all on Amazon's EC2 cloud computing network in order to create a large cluster that could compute word associations along with probabilities in a large text (in the order of Gigabytes) within a reasonable amount of time.
+      %p This project had time limitations, accuracy, and throughput requirements. It was coded in Java. 
 
-  %div.btn.disabled more info
+    -# %div.btn.disabled more info
 
-%div.featurette
-  = image_tag "freedomtracker.jpg", :class => "featurette-image pull-left"
-  %h4.featurette-heading Game Tree Search
-  %p.featurette-info
-    Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
 
-  %div.btn.disabled more info
+%section.featurette.left
+  = image_tag "mips.JPEG", :class => "featurette-image"
+  %aside.featurette-info
+    %h4.featurette-heading 16 Bit MIPS Processor
+    %div.content
+      %p For the CS61c Computer Architecture class I had to design a multi-stage MIPS processor pipeline that could handle the entire MIPS instruction set (except for floating point instructions).
+
+    -# %div.btn.disabled more info
