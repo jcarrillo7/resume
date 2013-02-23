@@ -7,7 +7,7 @@
  *= require_tree . 
 */
 body{
-font-size: 12pt;
+font-size: 1em;
 font-family: 'Raleway', sans-serif;
 color: #505050
 }
@@ -30,7 +30,7 @@ color: #a7a7a7;
 
 body {
 background: url('/assets/background.png') repeat-x;
-background-size: 50% 0.5%;
+background-size: 50% 0.4em;
 
 }
 
