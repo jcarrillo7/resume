@@ -1,6 +1,7 @@
 desc "This task is called by the Heroku cron add-on to keep the website alive"
-
 task :call_page => :environment do
-   uri = URI.parse('http://www.josecarrillo.herokuapp.com')
-   Net::HTTP.get(uri)
- end
+  puts "starting call page task"
+  uri = URI.parse('http://josecarrillo.herokuapp.com')
+  Net::HTTP.get(uri)
+  puts "finished call page task"
+end
