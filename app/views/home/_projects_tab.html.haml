@@ -1,10 +1,10 @@
-%section.featurette.right
+﻿%section.featurette.right
   %iframe{:allowfullscreen => "", :frameborder => "0", :height => "500", :src => "http://www.youtube.com/embed/PWIGFh2XKL0?feature=player_detailpage", :width => "640", :class => "featurette-image"}
   %aside.featurette-info
     %h4.featurette-heading Freedom Tracker
     %div.content
       %p My team and I Partnered with Freedom House to develop a machine learning web scraper that identified hate speech articles online, correlating them to hate violence events, that allowed Freedom House to better monitor situations in areas of interest like the Muslim/Christian conflict in Nigeria.
-      %p The project was a Ruby on Rails app using Heroku as the hosting service. We created the entire service from the ground up, including all frontend (javascript, UI, validations, styles, etc) and backend (Postgre, API, machine learning svm algorithms, and web scraper).
+      %p The project was a Ruby on Rails app using Heroku as the hosting service. We created the entire service from the ground up, including all front-end (JavaScript, UI, validations, styles, etc) and back-end (Postgre, API, machine learning svm algorithms, and web scraper).
 
     -# %div.btn.disabled more info
 
@@ -13,7 +13,7 @@
   %aside.featurette-info
     %h4.featurette-heading Compass
     %div.content
-      %p Compass is an iOS app currently in development by my roomate and I. It is a blood glucose management app for diabetics that predicts the effects of food and insulin on your blood glucose curve in order to help you deside how much insulin to take and when. It works by keeping track of all your past meals, insulin injections, and blood glucose readings and uses them to draw out the effect of each past meal/insulin on your blood glucose curve over time giving you a much more precise reading.
+      %p Compass is an iOS app currently in development by my roommate and I. It is a blood glucose management app for diabetics that predicts the effects of food and insulin on your blood glucose curve in order to help you decide how much insulin to take and when. It works by keeping track of all your past meals, insulin injections, and blood glucose readings and uses them to draw out the effect of each past meal/insulin on your blood glucose curve over time giving you a much more precise reading.
       %p This app is being developed for a medical customer who owns the patents for the mathematical prediction models used.
 
     -# %div.btn.disabled more info
@@ -32,7 +32,7 @@
   %aside.featurette-info
     %h4.featurette-heading Disney ImagiNations 2013
     %div.content
-      %p I competed in Disney's ImagiNations 2013 competition alongside my friends Christopher Balcells (EECS), Andre Faroni (MechE), and Hala Keilany (Architecture). ImagiNations is a design competition for Disney's Imagineering where you have to design the future of Disney entertainment experiences. Our design was an indoor skydiving adventure experience where guest fly inside a large 360° IMAX dome alognside actors through an epic fantasy. 
+      %p I competed in Disney's ImagiNations 2013 competition alongside my friends Christopher Balcells (EECS), Andre Faroni (MechE), and Hala Keilany (Architecture). ImagiNations is a design competition for Disney's Imagineering where you have to design the future of Disney entertainment experiences. Our design was an indoor skydiving adventure experience where guest fly inside a large 360° IMAX dome alongside actors through an epic fantasy. 
       %p We designed initial prototypes of how the system would work, the special light-up suits the guest wore, and the story line for the attraction.
 
     -# %div.btn.disabled more info
@@ -42,7 +42,7 @@
   %aside.featurette-info
     %h4.featurette-heading EEG Signal Processing Circuit
     %div.content
-      %p For Berkeley's EE40 Circuits class I designed the signal processing circuitry for an EEG device. The circuitry involved a EEG brainwave input coming through two electrodes that then went into a instrumentational amplifier, low pass active filter, buffers, and notch filters to output an amplified clean version of your brainwaves. The entire circuit was designed by hand, modeled in SPICE, laid out on a PCB, sent to manufacturing, and finally soldered and tested.
+      %p For Berkeley's EE40 Circuits class I designed the signal processing circuitry for an EEG device. The circuitry involved a EEG brainwave input coming through two electrodes that then went into a instrumentation amplifier, low pass active filter, buffers, and notch filters to output an amplified clean version of your brainwaves. The entire circuit was designed by hand, modeled in SPICE, laid out on a PCB, sent to manufacturing, and finally soldered and tested.
       %p Project specs included power limitations, variable gain for all amplifier stages, and test circuitry. It was built fully out of discrete components.
 
     -# %div.btn.disabled more info
@@ -53,7 +53,7 @@
     %h4.featurette-heading AM Radio Circuit
     %div.content
       %p In Berkeley's EE105 Semiconductor Physics course we had a final project of designing an AM radio from discrete components. I designed a multi-stage amplifier that used transistors to create the necessary voltage and current biasing. The circuit also required us to design a demodulator.
-      %p Project specs included driving a low impedance speaker, variable volume control, gain of 50 over frequencies from 500 Hz to 20 kHz, no clipping at maximum volume, required active loads and no resistor dividers for transistor biasing. No opamps were allowed.
+      %p Project specs included driving a low impedance speaker, variable volume control, gain of 50 over frequencies from 500 Hz to 20 kHz, no clipping at maximum volume, required active loads and no resistor dividers for transistor biasing. No op-amps were allowed.
 
     -# %div.btn.disabled more info
 
@@ -62,9 +62,9 @@
   %aside.featurette-info
     %h4.featurette-heading RSF Aid
     %div.content
-      %p RSF Aid is an Android app designed for UC Berkeley's Student Technology Council's Web App Competition. It was designed by my roomate, Chris Balcells, and I to serve the needs of the campus gym. The app won 4th place at the competition and was the only app picked by members of the campus for more development.
+      %p RSF Aid is an Android app designed for UC Berkeley's Student Technology Council's Web App Competition. It was designed by my roommate, Chris Balcells, and I to serve the needs of the campus gym. The app won 4th place at the competition and was the only app picked by members of the campus for more development.
       %p The app provides students with a way to see the current capacity of the gym, availability of machinery, classes offered at the gym, special programs and promotions, hours by location and sport, important news feeds, which of your friends have checked-in at a campus sport location, and a special pick-up game feature that allows students to set up pick-up games with other students thereby creating new friendships.
-      %p The app used Google App Engine for its backend, alongside Facebook APi's, Campus API's, and some web scraping to gather the data.
+      %p The app used Google App Engine for its back-end, alongside Facebook APi's, Campus API's, and some web scraping to gather the data.
 
     -# %div.btn.disabled more info
 
@@ -82,7 +82,7 @@
   %aside.featurette-info
     %h4.featurette-heading Fast Matrix Multiplication
     %div.content
-      %p For CS61C Computer Architecture course, we had to design a fast matrix multiplication algorithm that took advantage of multiple threads, hardware cache sizes, cache blocking, and assembly language optimizations in order to multiply two rectangular matrices. The project required achieving speeds of over 60 Gigaflops. I achieved over 70 Gigaflops. It was coded in C with optimizations done in the MIPS assembly langauge.
+      %p For CS61C Computer Architecture course, we had to design a fast matrix multiplication algorithm that took advantage of multiple threads, hardware cache sizes, cache blocking, and assembly language optimizations in order to multiply two rectangular matrices. The project required achieving speeds of over 60 Gigaflops. I achieved over 70 Gigaflops. It was coded in C with optimizations done in the MIPS assembly language.
 
     -# %div.btn.disabled more info
 
